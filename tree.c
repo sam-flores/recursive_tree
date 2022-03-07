@@ -54,6 +54,10 @@ int main(){
       d_theta += M_PI/25; // increase angle of twist
     }else if(q== 65364){
       d_theta -= M_PI/25; // decrease angle of twist
+    }else if(q == 65363){
+      len += 5;
+    }else if(q == 65361){
+      len -= 5;
     }
 
     G_rgb(0,0,0); // clear background for next run through
